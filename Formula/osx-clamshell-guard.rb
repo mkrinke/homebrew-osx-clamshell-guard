@@ -1,8 +1,8 @@
 class OsxClamshellGuard < Formula
   desc "Prevents macOS clamshell sleep during USB-C dock power delivery renegotiation"
   homepage "https://github.com/mkrinke/osx-clamshell-guard"
-  url "https://github.com/mkrinke/osx-clamshell-guard/archive/refs/tags/v0.1.1.tar.gz"
-  sha256 "b4c382dc6b126cbd655d56fdcea6ebb2c97d629aa234f25d7e1a4cd86f2daf5e"
+  url "https://github.com/mkrinke/osx-clamshell-guard/archive/refs/tags/v0.1.2.tar.gz"
+  sha256 "3823d63ac7790979fb79bb7588de2d65b864b8c4363193a962dc4ae10328c347"
   license "MIT"
   head "https://github.com/mkrinke/osx-clamshell-guard.git", branch: "main"
 
