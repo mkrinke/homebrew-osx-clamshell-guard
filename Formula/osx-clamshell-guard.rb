@@ -10,7 +10,7 @@ class OsxClamshellGuard < Formula
   depends_on :xcode => ["14.0", :build]
 
   def install
-    system "swiftc", "-O", "-o", "osx-clamshell-guard", "Sources/main.swift"
+    system "make", "build", "VERSION=#{version}"
     bin.install "osx-clamshell-guard"
   end
 
